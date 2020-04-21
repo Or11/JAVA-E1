@@ -2,10 +2,15 @@ package UnitTests;
 
 import org.junit.Test;
 
-public class RadialGeometryTests {
+    /**
+     * Testing Radial Geometry
+     * @author Or Efrati
+     *
+     */
+    public class RadialGeometryTests {
 
     /**
-     * Test method for{@Link primitives.RadialGeometry#getNormal()(primitives.Vector)}
+     * Test method for{@link geometries.RadialGeometry #getNormal(primitives.getNormal)}
      */
     @Test
     public void getNormal() {

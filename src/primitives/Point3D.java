@@ -40,9 +40,9 @@ public class Point3D {
     }
 
     public Point3D add(Vector vectorToAdd){
-        return new Point3D(_xCoordinate + vectorToAdd.vector.getX(),
-                           _yCoordinate + vectorToAdd.vector.getY(),
-                           _zCoordinate + vectorToAdd.vector.getZ());
+        return new Point3D(_xCoordinate + vectorToAdd.get().getX(),
+                           _yCoordinate + vectorToAdd.get().getY(),
+                           _zCoordinate + vectorToAdd.get().getZ());
     }
 
     public double distanceSquared(Point3D point){
